@@ -61,7 +61,7 @@ public class MainActivity extends ListActivity implements SearchView.OnQueryText
         getListView().setOnItemClickListener(new ListItemClickListener ());
         getListView().setOnItemLongClickListener(new ItemLongClickListener());
     }
-/*以下功能还没实现
+/**以下功能还没实现
     class ItemLongClickListener implements AdapterView.OnItemLongClickListener {
 
         @Override
