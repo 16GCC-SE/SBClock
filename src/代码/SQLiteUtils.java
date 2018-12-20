@@ -12,7 +12,7 @@ public class SQLiteUtils {
     public static final String DATABASE_NAME = "memorandum_db";
     public static final String DATETIME = "datetime";
     public static final String CONTENT = "content";
-//SQLiteDatabase是一个可以进行增(Create)、查(Retrieve)、改(Update)、删(Delete)数据，即CRUD操作的类。
+//、SQLiteDatabase是一个可以进行增(Create)、查(Retrieve)、改(Update)、删(Delete)数据，即CRUD操作的类。
     public static DatabaseHelper createDBHelper(Context context) {
         DatabaseHelper dbHelper = new DatabaseHelper(context,DATABASE_NAME);
         return dbHelper;
