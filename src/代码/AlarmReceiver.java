@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.widget.Toast;
 
 public class AlarmReceiver extends BroadcastReceiver {
-//弹出对话框提醒
+///弹出对话框提醒
     @Override
     public void onReceive(Context context, Intent intent) {
         // TODO: This method is called when the BroadcastReceiver is receiving
